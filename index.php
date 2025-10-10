@@ -120,10 +120,11 @@
 							<ul class="site-main-menu">
 								<li><a href="/">Home</a></li>
 
-								<li><a href="#nosotros">About</a></li>
-								<li><a href="#menu">Menu</a></li>
+								<li><a href="#nosotros">History</a></li>
+								<li><a href="#menu">Restaurant</a></li>
+								<li><a href="#menu">Cantinaza</a></li>
 								<li><a href="choyarose.html">Boutique</a></li>
-								<li><a href="#galerias">Gallery</a></li>
+								<li><a href="#galerias">Experiencias</a></li>
 
 							</ul>
 
@@ -131,7 +132,7 @@
 
 								<a target="_blank"
 									href="https://www.opentable.com.mx/restref/client/?restref=1034446&lang=en-US&corrid=df0c702e-6a9b-47b0-944e-a36f9e87cf1a"
-									class="nav-btn gp-btn">Reservations</a>
+									class="nav-btn gp-btn">Reserva</a>
 							</div>
 							<!-- /.right-menu -->
 						</nav>
