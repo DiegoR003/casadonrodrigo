@@ -122,7 +122,7 @@
 
 								<li><a href="#nosotros">History</a></li>
 								<li><a href="#menu">Restaurant</a></li>
-								<li><a href="#menu">Cantinaza</a></li>
+								<li><a href="#menu">Cantineza</a></li>
 								<li><a href="choyarose.html">Boutique</a></li>
 								<li><a href="#galerias">Experiencias</a></li>
 
@@ -162,7 +162,7 @@
 					}'>
 
 					<div class="swiper-wrapper">
-						<div class="swiper-slide" data-bg-image="media/banner/1.jpg">
+						<div class="swiper-slide" data-bg-image="media/banner/7.jpg">
 
 
 							<div class="container">
@@ -225,7 +225,7 @@
 										</p>
 
 										<a href="#nosotros" class="gp-btn btn-light" data-animate="fadeInUp"
-											data-delay="0.9s">Explore</a>
+											data-delay="0.9s">Reservar</a>
 
 									</div>
 									<!-- /.banner-content -->
@@ -503,23 +503,12 @@
 							  <div class="tab-content tab-content-child">
 								<div class="tab-pane fade show active" id="nav-antipasti" role="tabpanel" aria-labelledby="nav-antipasti-tab">
 								 <div class="row">
-								  <div class="col-md-6 d-flex justify-content-center">
-  									<img src="menu/MENU-VERANO-2025-EN.jpg" alt="" class="img-fluid">
-												
-								  
-			
-								  </div>
+								  <!-- se quito un menu de launch por prox. actualización -->
 								 </div>
 								</div>
 								<div class="tab-pane fade" id="nav-insalatone" role="tabpanel" aria-labelledby="nav-insalatone-tab">
 								<div class="row">
-								  <div class="col-md-6 d-flex justify-content-center">
-									<img src="menu/MENU-VERANO-2025-ES.jpg" alt="" class="img-fluid">
-
-			
-								  
-			
-								  </div>
+								  <!-- se quito otra parte de menu en español por prox. actualización -->
 								 </div>
 								</div>
 							  </div>
@@ -550,6 +539,12 @@
 									<img src="menu/ingles2.jpg" alt="">
 			
 								  </div>
+								   <div class="col-md-6 d-flex justify-content-center">
+  									<img src="menu/MENU-VERANO-2025-EN.jpg" alt="" class="img-fluid">
+												
+								  
+			
+								  </div>
 								 </div>
 								</div>
 								<div class="tab-pane fade" id="nav-cenaEs" role="tabpanel" aria-labelledby="nav-cenaEs-tab">
@@ -560,6 +555,13 @@
 								  </div>
 								  <div class="col-md-6">
 									<img src="menu/espa2.jpg" alt="">
+			
+								  </div>
+								  <div class="col-md-6 py-2 d-flex justify-content-center">
+									<img src="menu/MENU-VERANO-2025-ES.jpg" alt="" class="img-fluid">
+
+			
+								  
 			
 								  </div>
 								 </div>
