@@ -118,13 +118,13 @@
 							</div>
 
 							<ul class="site-main-menu">
-								<li><a href="/">Home</a></li>
+								<li><a href="#main_content">Home</a></li>
 
 								<li><a href="#nosotros">History</a></li>
 								<li><a href="#menu">Restaurant</a></li>
-								<li><a href="#menu">Cantineza</a></li>
-								<li><a href="choyarose.html">Boutique</a></li>
-								<li><a href="#galerias">Experiencias</a></li>
+								<li><a href="#cantina">Cantina 29</a></li>
+								<li><a href="#boutique">Boutique</a></li>
+								<li><a href="#experiencias">Experiencias</a></li>
 
 							</ul>
 
@@ -167,7 +167,7 @@
 
 							<div class="container">
 								<div class="banner-content text-center">
-									<h3 class="sub-title" data-animate="fadeInDown">Welcome to </h3>
+									<!-- <h3 class="sub-title" data-animate="fadeInDown">Welcome to </h3> -->
 									<h2 class="banner-title" data-animate="fadeInDown" data-delay="0.3s">Casa
 										Don Rodrigo</h2>
 
@@ -224,7 +224,7 @@
 											Authentic Mexican Casona
 										</p>
 
-										<a href="#nosotros" class="gp-btn btn-light" data-animate="fadeInUp"
+										<a href="#nosotros" class="buttom-turquesa gp-btn " data-animate="fadeInUp"
 											data-delay="0.9s">Reservar</a>
 
 									</div>
@@ -245,77 +245,56 @@
 				<!-- /.banner -->
 
 				<!--=========================-->
-				<!--=         About         =-->
+				<!--=         History         =-->
 				<!--=========================-->
-				<section id="nosotros" class="about">
-					<div class="container">
-						<div class="section-title text-center">
+				<section id="nosotros" class="about section">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2 class="title wow fadeInUp" data-wow-delay="0.5s">Our History… Our Legacy</h2>
+      <h3 class="sub-title section-subtitle wow fadeInUp">Authentic Mexican Casona</h3>
+      <div class="section-divider"></div>
+    </div>
 
-							<h2 class="title wow fadeInUp" data-wow-delay="0.5s">
-								Casa Don Rodrigo
-							</h2>
-							<h3 class="sub-title wow fadeInUp">Authentic Mexican Casona</h3>
+    <div class="row align-items-center g-4">
+      <!-- Texto -->
+      <div class="col-lg-7">
+        <div class="about-content-two">
+          <p class="wow fadeInUp" data-wow-delay="0.2s">
+            Casa Don Rodrigo is an authentic <i>casona</i> located on La Calle Grande, in the historic heart of San José del Cabo.
+            Built in 1920 by Don Rodrigo Aragón—one of the region’s pioneers and the town’s very first Mayor—this house has long
+            been a symbol of tradition and hospitality.
+          </p>
+          <p class="wow fadeInUp" data-wow-delay="0.4s">
+            The Aragón family were deeply rooted in cattle ranching and agriculture, with a long-standing passion for crafting
+            artisanal homemade cheese and cultivating organic products at their family farm. 
+          </p>
+		  <p class="wow fadeInUp" data-wow-delay="0.4s">
+			Don “Cucho”, one of Don Rodrigo’s
+            eldest sons, carried this legacy for many years. Today, his children—Jesús Jr., Gabriela, and Cecilia—proudly own this
+            beautiful casona, honoring its spirit with every dish, design and celebration.
+		 </p>
+		 <p class="wow fadeInUp" data-wow-delay="0.4s">
+			Casa Don Rodrigo is home to Cantina 29 and Choya Rose Boutique — a vibrant space to eat, drink, shop, and mingle with the locals. A place full of good vibes, genuine warmth, and the unmistakable touch of authentic Mexican hospitality.
+		 </p>
+        </div>
+      </div>
 
-						</div>
-						<!-- /.section-title -->
-
-						<div style="margin-bottom: 150px;" class="about-content-two text-center">
-							<p class="wow fadeInUp" data-wow-delay="1.0s">
-								<b>Casa Don Rodrigo</b> is an authentic <i>Casona</i> located in La
-								Calle Grande at the historic town of San José del Cabo. This house was
-								built in 1920 by Don Rodrigo Aragon, one of the pioneers of the region
-								and the first Mayor in town. The family’s main occupation was cattle
-								raising and agriculture, their specialty was and continues to be making
-								artisan homemade cheese and growing organic products at the family Farm.
-							</p>
-							<!-- /.about-feature-thumb-two -->
-
-						</div>
-						<!-- /.about-content-two -->
-						<div class="row">
-							<div style="margin-top: -90px;" class="col-lg-6">
-								<div class="about-content">
-
-									<p class="wow fadeInUp" data-wow-delay="1.3s">
-										Casa Don Rodrigo is well known for offering a casual ambiance and genuine family style service and menu their specialty is making delicious homemade cheese and they offer a unique Cheese Tasting Experience where guests are invited to the Wine and Cheese Cellar to taste three of their best cheeses paired with their choice of Mexican wine, tequila or mezcal…it is a delighted experience in San Jose that you cant miss!
-									</p>
-
-									<p class="wow fadeInUp" data-wow-delay="1.6s">
-										Casa Don Rodrigo is the home of <b>Cantina29</b> an old-style Mexican cantina that respects the past and the history of the house, you will experience a traditional tableside bar service and will share lots of stories with the locals about the old timers.
-
-									</p>
-
-									<p class="wow fadeInUp" data-wow-delay="1.9s">
-										Next to the Cantina is the new Design and Lifestyle Boutique ChoyaRose where you will find beautiful home accessories, gifts and custom furniture from all over Mexico. Choya Rose also specializes in Interior Design and Procurement Services, so if you are looking to decorate your home or business make an appointment and they will be happy to help you.
-									</p>
-									<p class="wow fadeInUp" data-wow-delay="2.2s">
-										<i>Casa Don Rodrigo is…the best place downtown San Jose del Cabo to Eat, Drink, Shop and Mingle like a local.</i>
-									</p>
-								</div>
-								<!-- /.about-content -->
-							</div>
-							<!-- /.col-lg-6 -->
-
-							<div class="col-lg-6">
-								<div class="about-feature-image">
-									<div class="img-one" data-parallax='{" y" : 25}'>
-										<img src="media/about/1.jpg" alt="about" class="wow fadeInDown">
-									</div>
-
-									<div class="img-two" data-parallax='{" y" : -25}'>
-										<img src="media/about/2.jpg" alt="about" class="wow fadeInUp">
-									</div>
-								</div>
-								<!-- /.about-feature-image -->
-							</div>
-							<!-- /.col-lg-6 -->
-						</div>
-						<!-- /.row -->
-					</div>
-					<!-- /.container -->
-				</section>
-				<!-- /.about -->
-
+      <!-- Imágenes -->
+      <div class="col-lg-5">
+        <div class="about-feature-image">
+          <div class="img-one wow fadeInDown" data-parallax='{"y":25}'>
+            <!-- <img src="media/about/1.jpg" alt="about"> -->
+            <img src="media/about/1.jpg" alt="about">
+          </div>
+          <div class="img-two wow fadeInUp" data-parallax='{"y":-25}'>
+            <!-- <img src="media/about/2.jpg" alt="about"> -->
+            <img src="media/about/2.jpg" alt="about">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -341,7 +320,7 @@
 							<div class="action-btn-inner">
 								<a target="_blank"
 									href="https://www.opentable.com.mx/restref/client/?restref=1034446&lang=en-US&corrid=df0c702e-6a9b-47b0-944e-a36f9e87cf1a"
-									class="gp-btn btn-light">Book a table</a>
+									class="nav-btn gp-btn">Book a table</a>
 							</div>
 							<!-- /.action-btn-inner -->
 						</div>
@@ -351,109 +330,8 @@
 				</section>
 				<!-- /.call-to-acteon -->
 
-				<section id="about-three" class="section-padding">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6">
-								<div class="about-three-thumb">
-									<div class="img-one" data-parallax='{"x" : -80}'>
-										<img src="media/about/1.png" alt="about">
-									</div>
-
-									<div class="img-two">
-										<img src="media/about/2.png" alt="about">
-									</div>
-								</div>
-								<!-- /.about-three-thumb -->
-							</div>
-							<!-- /.col-lg-6 -->
-							<div style="margin-bottom:50px;" class="col-lg-6">
-								<div class="about-content-three">
-									<div class="section-title text-left">
-										<h4 class="wow fadeInUp" data-wow-delay="0.5s">
-											Don't miss out this experience!
-										</h4>
-										<h2 class="title wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-											Tasting <span> of artisan</span> <br>
-											cheeses.
-										  </h2>
-										
-										<p class="wow fadeInUp" data-wow-delay="0.7s">
-											Hours: 5:00 pm and 7:00 pm
-											<br>
-											Cost: $45 dollars
-											<br>
-											<br>
-											<b>You can reserve by
-												<br> email <a href="mailto:info@casadonrodrigo.com">info@casadonrodrigo.com</a></b>
-										</p>
-									</div>
-								</div>
-								<!-- /.about-content-three -->
-							</div>
-							<!-- /.col-lg-6 -->
-						</div>
-						<!-- /.row -->
-					</div>
-					<!-- /.container -->
-				</section>
-				<section id="about-three" class="section-padding">
-					<div class="container">
-						<div class="row">
-							<div style="margin-bottom:50px;" class="col-lg-6">
-								<div class="about-content-three">
-									<div class="section-title text-left">
-										<h4 class="wow fadeInUp" data-wow-delay="0.5s">
-											Happy hour
-										</h4>
-										<h2 class="title wow fadeInUp" data-wow-delay="0.3s">
-											Everyday at
-											<br> Cantina 29 <br>
-											2x1 on Margaritas<br> & Mezcales
-										</h2>
-
-										<h6 class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-											Margaritas - Mezcales
-										  </h6>
-										  <p class="wow fadeInUp" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
-											1:00 pm a 7:00 pm
-										  </p>
-
-										  <p class="wow fadeInUp" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
-											<b>Wednesday</b><br>MALA RUMBA
-											<br>
-											<br>
-											<b>Thursday</b><br> Dann Steel
-											<br>
-											<br>
-											<b>You can reserve by <br>
-											  email
-											  <a href="mailto:info@casadonrodrigo.com">info@casadonrodrigo.com</a></b>
-										  </p>
-									</div>
-								</div>
-								<!-- /.about-content-three -->
-							</div>
-							<div class="col-lg-6">
-								<div class="about-three-thumb">
-									<div class="img-one" data-parallax='{"x" : -160}'>
-										<img src="media/about/d.png" alt="about">
-									</div>
-									<br>
-		
-									<div class="img-two">
-										<img src="media/about/foto2.png" alt="about">
-									</div>
-								</div>
-								<!-- /.about-three-thumb -->
-							</div>
-							<!-- /.col-lg-6 -->
-							<!-- /.col-lg-6 -->
-						</div>
-						<!-- /.row -->
-					</div>
-					<!-- /.container -->
-				</section>
+				
+				
 
 				<!--=============================-->
 				<!--=         Food Menu         =-->
@@ -503,12 +381,23 @@
 							  <div class="tab-content tab-content-child">
 								<div class="tab-pane fade show active" id="nav-antipasti" role="tabpanel" aria-labelledby="nav-antipasti-tab">
 								 <div class="row">
-								  <!-- se quito un menu de launch por prox. actualización -->
+								  <div class="col-md-6 d-flex justify-content-center">
+  									<img src="menu/MENU-VERANO-2025-EN.jpg" alt="" class="img-fluid">
+												
+								  
+			
+								  </div>
 								 </div>
 								</div>
 								<div class="tab-pane fade" id="nav-insalatone" role="tabpanel" aria-labelledby="nav-insalatone-tab">
 								<div class="row">
-								  <!-- se quito otra parte de menu en español por prox. actualización -->
+								  <div class="col-md-6 d-flex justify-content-center">
+									<img src="menu/MENU-VERANO-2025-ES.jpg" alt="" class="img-fluid">
+
+			
+								  
+			
+								  </div>
 								 </div>
 								</div>
 							  </div>
@@ -531,39 +420,36 @@
 							  <div class="tab-content tab-content-child">
 								<div class="tab-pane fade active show" id="nav-cenaEn" role="tabpanel" aria-labelledby="nav-cenaEn-tab">
 								<div class="row">
-								  <div class="col-md-6">
+								 <!-- <div class="col-md-6">
 									<img src="menu/ingles1.jpg" alt="">
 			
 								  </div>
 								  <div class="col-md-6">
 									<img src="menu/ingles2.jpg" alt="">
 			
-								  </div>
-								   <div class="col-md-6 d-flex justify-content-center">
+								  </div>-->
+								  <div class="col-md-6 d-flex justify-content-center">
   									<img src="menu/MENU-VERANO-2025-EN.jpg" alt="" class="img-fluid">
-												
-								  
-			
-								  </div>
+										
+								  </div> 
+
 								 </div>
 								</div>
 								<div class="tab-pane fade" id="nav-cenaEs" role="tabpanel" aria-labelledby="nav-cenaEs-tab">
 								<div class="row">
-								  <div class="col-md-6">
+								<!--  <div class="col-md-6">
 									<img src="menu/espa1.jpg" alt="">
 			
 								  </div>
 								  <div class="col-md-6">
 									<img src="menu/espa2.jpg" alt="">
 			
-								  </div>
-								  <div class="col-md-6 py-2 d-flex justify-content-center">
-									<img src="menu/MENU-VERANO-2025-ES.jpg" alt="" class="img-fluid">
+								  </div> -->
 
-			
-								  
-			
-								  </div>
+								  <div class="col-md-6 d-flex justify-content-center">
+									<img src="menu/MENU-VERANO-2025-ES.jpg" alt="" class="img-fluid">
+								  </div> 
+
 								 </div>
 								</div>
 							  </div>
@@ -623,10 +509,138 @@
 				  </section>
 				<!-- /.food-menu-area -->
 
-				<!--===============================-->
-				<!--=         Galería         =-->
-				<!--===============================-->
-				<section id="galerias" class="gallery">
+
+				
+				
+<!--==============================-->
+<!--=        Cantina 29          =-->
+<!--==============================-->
+<section id="cantina" class="py-5 section text-center">
+  <div class="container">
+    <h2 class="section-title" style="font-size: 50px">Cantina 29</h2>
+    <div class="section-subtitle">The best place to mingle with locals</div>
+    <div class="section-divider"></div>
+    <div class="row justify-content-center mb-3">
+      <div class="col-lg-9">
+        <p>Casa Don Rodrigo is home to <b>Cantina 29</b>, an old‑style Mexican cantina that blends traditional charm with a modern, vibrant spirit. It’s a lively space to enjoy sexy cocktails, sing, dance and mingle with locals in a safe, welcoming and authentic Mexican ambiance.</p>
+        <p class="mb-1"><span class="badge-chip badge-chip--rosa">Happy Hour 1–5 PM</span> <span class="badge-chip">Friday Girls Promo</span> <span class="badge-chip">Guest DJs & Mixologists</span></p>
+        <p>Our space is limited—<b>we recommend reservations</b> to ensure your spot.</p>
+        <a href="#contact" class="btn btn-cta me-2">Reservar</a>
+        <a href="#events" class="btn btn-outline-nopal">Próximas fechas</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--==============================-->
+<!--=         Boutique            =-->
+<!--==============================-->
+<section id="boutique" class="py-5 section--crema">
+  <div class="container text-center">
+    <h2 class="section-title" style="font-size: 50px">Choya Rose Boutique</h2>
+    <div class="section-subtitle">Everything you love about Mexico</div>
+    <div class="section-divider"></div>
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <p>Next to the Cantina, you’ll find <b>Choya Rose</b> — a Design & Lifestyle Boutique curated with home accessories, gifts and custom furniture handcrafted by artisans from all over Mexico. We bridge you with the best designers and makers to bring your project to life through authentic Mexican craftsmanship.</p>
+        <p class="mb-3">We also offer professional interior design and procurement services — perfect for decorating a home or business with genuine Mexican style and soul.</p>
+        <p class="mb-1">
+          <span class="badge-chip">Design consultation</span>
+          <span class="badge-chip badge-chip--nopal">info@choyarose.com</span>
+          <span class="badge-chip badge-chip--rosa">WhatsApp: +52 624 129 0428</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--==============================-->
+<!--=        Experiencias         =-->
+<!--==============================-->
+<section id="experiencias" class="section py-5">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-title" style="font-size: 50px">Experiencias</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <!-- Tabs -->
+    <nav class="tabs-inner mt-3">
+      <div class="nav menu-tabs justify-content-center" role="tablist">
+        <a class="nav-item nav-link active" id="tab-exp-cheese" data-toggle="tab" href="#pane-exp-cheese" role="tab" aria-controls="pane-exp-cheese" aria-selected="true"><span>Cheese & Wine</span></a>
+        <a class="nav-item nav-link"       id="tab-exp-cele"   data-toggle="tab" href="#pane-exp-cele"   role="tab" aria-controls="pane-exp-cele"   aria-selected="false"><span>Celebrations</span></a>
+        <a class="nav-item nav-link"       id="tab-exp-night"  data-toggle="tab" href="#pane-exp-night"  role="tab" aria-controls="pane-exp-night"  aria-selected="false"><span>Night Life</span></a>
+      </div>
+    </nav>
+
+    <!-- Contenido de tabs -->
+    <div class="tab-content mt-4">
+      <!-- Cheese & Wine -->
+      <div class="tab-pane fade show active" id="pane-exp-cheese" role="tabpanel" aria-labelledby="tab-exp-cheese">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card h-100 shadow-tierra">
+              <img class="card-img-top" src="media/experiencias/cheese-wine.jpg" alt="Cheese & Wine Tasting">
+              <div class="card-body">
+                <h5 class="card-title">Cheese & Wine Tasting</h5>
+                <p class="card-text">Taste our house-made cheeses crafted with Don Rodrigo’s original recipe, paired with select Mexican wines. <b>Price: $45 USD pp</b> – reservations required.</p>
+                <a href="https://wa.me/526241290428" class="btn btn-cta">Reservar</a>
+              </div>
+            </div>
+          </div>
+          <!-- añade más tarjetas si quieres aquí -->
+        </div>
+      </div>
+
+      <!-- Celebrations -->
+      <div class="tab-pane fade" id="pane-exp-cele" role="tabpanel" aria-labelledby="tab-exp-cele">
+        <div class="row g-4">
+          <div class="col-md-12">
+            <div class="card h-100 shadow-tierra">
+              <img class="card-img-top" src="media/experiencias/celebrations.jpg" alt="La Huerta Escondida - Celebrations">
+              <div class="card-body">
+                <h5 class="card-title">Celebrations – La Huerta Escondida</h5>
+                <p class="card-text">Private events in a lush farm venue with indoor-outdoor kitchen & grills, full restrooms, parking and security.</p>
+                <p class="mb-2">
+                  <span class="badge-chip">La Noria 50–60 pax</span>
+                  <span class="badge-chip">The Trees 80–100 pax</span>
+                  <span class="badge-chip">The Plaza 100–250 pax</span>
+                </p>
+                <a href="mailto:eventos@casadonrodrigo.com" class="btn btn-outline-nopal">Solicitar info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Night Life -->
+      <div class="tab-pane fade" id="pane-exp-night" role="tabpanel" aria-labelledby="tab-exp-night">
+        <div class="row g-4">
+          <div class="col-md-12">
+            <div class="card h-100 shadow-tierra">
+              <img class="card-img-top" src="media/experiencias/night-life.jpg" alt="Night Life">
+              <div class="card-body text-center">
+                <h5 class="card-title">Night Life at Cantina 29</h5>
+                <p class="card-text">Happy Hour 1–5 PM · Friday Girls Promo · Guest DJs & Mixologists.</p>
+                <span class="badge-chip badge-chip--rosa">Happy Hour</span>
+                <span class="badge-chip">Guest DJs</span>
+                <span class="badge-chip badge-chip--nopal">2×1 Margaritas & Mezcales</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.tab-content -->
+  </div>
+</section>
+
+
+				<!--==============================-->
+				<!--=         Gallery            =-->
+				<!--==============================-->
+
+<section id="galerias" class="gallery">
 					<div class="container p-0">
 					  <div class="gallery-inner">
 						<div class="section-title text-center">
@@ -1046,10 +1060,7 @@
 					<!-- /.site-info -->
 				</footer>
 				<!-- /#footer -->
-
-
-
-
+				<!-- WhatsApp -->
 				<style>
 			#whatsapp {
 				position: fixed;
@@ -1060,7 +1071,7 @@
 			}
 		</style>
 				<a
-					href="https://wa.me/+526241420418?text=Hola%20me%20gustaria%20saber%20más%20de%20sus%20productos."
+					href="https://wa.me/+526241290428?text=Hola%20me%20gustaria%20agendar%20una%20reservación"
 					target="_blank">
 					<img src="assets/img/whats.png" alt="WhatsApp" id="whatsapp" />
 				</a>
