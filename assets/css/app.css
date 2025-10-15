@@ -1114,7 +1114,14 @@ Creation date: 04/06/2018 14:38
   }
   .site-header .header-inner .site-logo a img {
     width: 100%;
+    
   }
+  .logo {
+  filter: brightness(0) saturate(100%) invert(92%) sepia(62%) saturate(450%) hue-rotate(320deg) brightness(103%) contrast(102%);
+  
+  }
+
+
   .site-header .header-inner .site-nav {
     margin-left: auto;
   }
@@ -6305,6 +6312,8 @@ a:hover { color: #EC6390; }
 .text-nopal  { color: #2E7D32 !important; }
 .border-maiz { border-color: #F2C75B !important; }
 
+
+
 /* ===== Titulares y subtítulos de sección ===== */
 .section-title { color:#0B4F8A; }                    /* azul cobalto */
 .section-subtitle { color:#EC6390; font-style:italic; } /* rosa mex script/italic */
@@ -6362,4 +6371,30 @@ a:hover { color: #EC6390; }
 #nosotros p{ margin-bottom:1rem; line-height:1.9; }
 #nosotros .section-subtitle{ margin-bottom:.25rem; }
 #nosotros .section-divider{ margin:12px auto 24px; }
+
+/* Experiencias: tarjetas del mismo alto */
+#experiencias .card{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 500px;
+}
+
+/* Imagen con alto uniforme */
+#experiencias .card-img-top{
+  width: 100%;
+  height: 100%;           /* ajusta a tu gusto: 320–420px */
+  object-fit: contain;       /* recorta manteniendo proporción */
+  object-position: center; /* centra el recorte */
+}
+
+/* Cuerpo ocupa el resto y alinea el CTA abajo */
+#experiencias .card-body{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+#experiencias .card-body .btn{
+  margin-top: auto;        /* botón pegado abajo */
+}
 
