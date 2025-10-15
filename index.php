@@ -10,7 +10,7 @@
 
 
 
-		<title>Casa Don Rodrigo - Authentic Mexican Casona</title>
+		<title>Casa Don Rodrigo - Authentic Mexican flavors & vibes</title>
 
 		<link rel="apple-touch-icon" sizes="180x180"
 			href="assets/img/fav/apple-touch-icon.png">
@@ -45,6 +45,8 @@
 		<link rel="stylesheet" type="text/css"
 			href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
 			/>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
 
 		<!-- Site Stylesheet -->
 		<link rel="stylesheet" href="assets/css/app.css" type="text/css">
@@ -130,8 +132,8 @@
 
 							<div class="right-menu">
 
-								<a target="_blank"
-									href="https://www.opentable.com.mx/restref/client/?restref=1034446&lang=en-US&corrid=df0c702e-6a9b-47b0-944e-a36f9e87cf1a"
+								<a 
+									href="#contacto"
 									class="nav-btn gp-btn">Reserva</a>
 							</div>
 							<!-- /.right-menu -->
@@ -221,10 +223,10 @@
 										</div>
 
 										<p data-animate="fadeInUp" data-delay="0.7s">
-											Authentic Mexican Casona
+											Authentic Mexican flavors & vibes
 										</p>
 
-										<a href="#nosotros" class="buttom-turquesa gp-btn " data-animate="fadeInUp"
+										<a href="#contacto" class="buttom-turquesa gp-btn " data-animate="fadeInUp"
 											data-delay="0.9s">Reservar</a>
 
 									</div>
@@ -251,7 +253,7 @@
   <div class="container">
     <div class="section-title text-center">
       <h2 class="title wow fadeInUp" data-wow-delay="0.5s">Our History… Our Legacy</h2>
-      <h3 class="sub-title section-subtitle wow fadeInUp">Authentic Mexican Casona</h3>
+      <h3 class="sub-title section-subtitle wow fadeInUp">Authentic Mexican flavors & vibes</h3>
       <div class="section-divider"></div>
     </div>
 
@@ -318,8 +320,8 @@
 							<!-- /.content-left -->
 
 							<div class="action-btn-inner">
-								<a target="_blank"
-									href="https://www.opentable.com.mx/restref/client/?restref=1034446&lang=en-US&corrid=df0c702e-6a9b-47b0-944e-a36f9e87cf1a"
+								<a 
+									href="#contacto"
 									class="nav-btn gp-btn">Book a table</a>
 							</div>
 							<!-- /.action-btn-inner -->
@@ -517,16 +519,16 @@
 <!--==============================-->
 <section id="cantina" class="py-5 section text-center">
   <div class="container">
-    <h2 class="section-title" style="font-size: 50px">Cantina 29</h2>
+    <h2 class="section-title" style="font-size: 50px; color: #000000;">Cantina 29</h2>
     <div class="section-subtitle">The best place to mingle with locals</div>
     <div class="section-divider"></div>
     <div class="row justify-content-center mb-3">
       <div class="col-lg-9">
         <p>Casa Don Rodrigo is home to <b>Cantina 29</b>, an old‑style Mexican cantina that blends traditional charm with a modern, vibrant spirit. It’s a lively space to enjoy sexy cocktails, sing, dance and mingle with locals in a safe, welcoming and authentic Mexican ambiance.</p>
-        <p class="mb-1"><span class="badge-chip badge-chip--rosa">Happy Hour 1–5 PM</span> <span class="badge-chip">Friday Girls Promo</span> <span class="badge-chip">Guest DJs & Mixologists</span></p>
+        <p class="mb-1"><span class="badge-chip bg-maiz">Happy Hour 1–5 PM</span> <span class="badge-chip bg-pispireta">Friday Girls Promo</span> <span class="badge-chip bg-talavera">Guest DJs & Mixologists</span></p>
         <p>Our space is limited—<b>we recommend reservations</b> to ensure your spot.</p>
-        <a href="#contact" class="btn btn-cta me-2">Reservar</a>
-        <a href="#events" class="btn btn-outline-nopal">Próximas fechas</a>
+        <a href="#contacto" class="btn btn-cta me-2">Reservar</a>
+       <!-- <a href="#events" class="btn btn-outline-nopal">Próximas fechas</a> -->
       </div>
     </div>
   </div>
@@ -535,9 +537,9 @@
 <!--==============================-->
 <!--=         Boutique            =-->
 <!--==============================-->
-<section id="boutique" class="py-5 section--crema">
+<section id="boutique" class="py-5 ">
   <div class="container text-center">
-    <h2 class="section-title" style="font-size: 50px">Choya Rose Boutique</h2>
+    <h2 class="section-title" style="font-size: 50px; color: #000000;">Choya Rose Boutique</h2>
     <div class="section-subtitle">Everything you love about Mexico</div>
     <div class="section-divider"></div>
     <div class="row justify-content-center">
@@ -584,7 +586,7 @@
               <div class="card-body">
                 <h5 class="card-title">Cheese & Wine Tasting</h5>
                 <p class="card-text">Taste our house-made cheeses crafted with Don Rodrigo’s original recipe, paired with select Mexican wines. <b>Price: $45 USD pp</b> – reservations required.</p>
-                <a href="https://wa.me/526241290428" class="btn btn-cta">Reservar</a>
+                <a href="#contacto" class="btn btn-cta">Reservar</a>
               </div>
             </div>
           </div>
@@ -606,7 +608,7 @@
                   <span class="badge-chip">The Trees 80–100 pax</span>
                   <span class="badge-chip">The Plaza 100–250 pax</span>
                 </p>
-                <a href="mailto:eventos@casadonrodrigo.com" class="btn btn-outline-nopal">Solicitar info</a>
+                <a href="mailto:info@casadonrodrigo.com" class="btn btn-outline-nopal">Solicitar info</a>
               </div>
             </div>
           </div>
@@ -646,7 +648,7 @@
 						<div class="section-title text-center">
 						  <h2 class="title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Casa Don Rodrigo</h2>
 						  <h3 class="sub-title wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-							Authentic Mexican Casona
+							Authentic Mexican flavors & vibes
 						  </h3>
 						</div>
 			
@@ -705,50 +707,50 @@
 			
 							<div class="cafe-gallery-item width-large grid-item pizza dolci cocktails" style="position: absolute; left: 0%; top: 738.013px;">
 							  <div class="cafe-isotope-grid__img">
-								<img src="media/gallery/15.jpg" alt="gallery thumb">
+								<img src="#" alt="gallery thumb">
 			
 								<div class="gallery-info">
-								  <a class="popup-modal" href="media/gallery/15.jpg"><i class="ei ei-icon_search"></i></a>
+								  <a class="popup-modal" href="#"><i class="ei ei-icon_search"></i></a>
 								</div>
 							  </div>
 							</div>
 			
 							<div class="cafe-gallery-item width-sm-large grid-item pizza dinner" style="position: absolute; left: 57.2057%; top: 738.013px;">
 							  <div class="cafe-isotope-grid__img">
-								<img src="media/gallery/16.jpg" alt="gallery thumb">
+								<img src="#" alt="gallery thumb">
 			
 								<div class="gallery-info">
-								  <a class="popup-modal" href="media/gallery/16.jpg"><i class="ei ei-icon_search"></i></a>
+								  <a class="popup-modal" href="#"><i class="ei ei-icon_search"></i></a>
 								</div>
 							  </div>
 							</div>
 			
 							<div class="cafe-gallery-item width2 grid-item dolci wine" style="position: absolute; left: 0%; top: 930.001px;">
 							  <div class="cafe-isotope-grid__img">
-								<img src="media/gallery/17.jpg" alt="gallery thumb">
+								<img src="#" alt="gallery thumb">
 			
 								<div class="gallery-info">
-								  <a class="popup-modal" href="media/gallery/17.jpg"><i class="ei ei-icon_search"></i></a>
+								  <a class="popup-modal" href="#"><i class="ei ei-icon_search"></i></a>
 								</div>
 							  </div>
 							</div>
 			
 							<div class="cafe-gallery-item width3 grid-item pizza" style="position: absolute; left: 47.9923%; top: 930.001px;">
 							  <div class="cafe-isotope-grid__img">
-								<img src="media/gallery/18.jpg" alt="gallery thumb">
+								<img src="#" alt="gallery thumb">
 			
 								<div class="gallery-info">
-								  <a class="popup-modal" href="media/gallery/18.jpg"><i class="ei ei-icon_search"></i></a>
+								  <a class="popup-modal" href="#"><i class="ei ei-icon_search"></i></a>
 								</div>
 							  </div>
 							</div>
 			
 							<div class="cafe-gallery-item width4 grid-item pizza wine" style="position: absolute; left: 47.9923%; top: 1166.03px;">
 							  <div class="cafe-isotope-grid__img">
-								<img src="media/gallery/19.jpg" alt="gallery thumb">
+								<img src="#" alt="gallery thumb">
 			
 								<div class="gallery-info">
-								  <a class="popup-modal" href="media/gallery/19.jpg"><i class="ei ei-icon_search"></i></a>
+								  <a class="popup-modal" href="#"><i class="ei ei-icon_search"></i></a>
 								</div>
 							  </div>
 							</div>
@@ -785,10 +787,10 @@
 			
 							<div class="cafe-gallery-item width3 grid-item pizza" style="position: absolute; left: 47.9923%; top: 1668.01px;">
 							  <div class="cafe-isotope-grid__img">
-								<img src="media/gallery/13.jpg" alt="gallery thumb">
+								<img src="#" alt="gallery thumb">
 			
 								<div class="gallery-info">
-								  <a class="popup-modal" href="media/gallery/13.jpg"><i class="ei ei-icon_search"></i></a>
+								  <a class="popup-modal" href="#"><i class="ei ei-icon_search"></i></a>
 								</div>
 							  </div>
 							</div>
@@ -855,10 +857,10 @@
 			
 							<div class="cafe-gallery-item width-sm-large grid-item pizza dinner" style="position: absolute; left: 57.2057%; top: 2390.05px;">
 							  <div class="cafe-isotope-grid__img">
-								<img src="media/gallery/2.jpg" alt="gallery thumb">
+								<img src="#" alt="gallery thumb">
 			
 								<div class="gallery-info">
-								  <a class="popup-modal" href="media/gallery/2.jpg"><i class="ei ei-icon_search"></i></a>
+								  <a class="popup-modal" href="#"><i class="ei ei-icon_search"></i></a>
 								</div>
 							  </div>
 							</div>
@@ -901,6 +903,50 @@
 				  </section>
 				<!-- /.gallery -->
 
+				<!--=========================-->
+				<!--=        Contacto         =-->
+				<!--=========================-->
+
+				 <section id="contacto" class="py-5 section--crema">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-title" style="font-size: 45px; ">Reserva con nosotros</h2>
+      <div class="section-subtitle">Book a Table directly with us</div>
+      <div class="section-divider"></div>
+    </div>
+
+    <form action="contact.php" method="POST" class="row g-3 mt-2" id="reservaForm" novalidate>
+      <div class="col-md-6">
+        <label class="form-label">Nombre completo</label>
+        <input type="text" name="name" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Email</label>
+        <input type="email" name="email" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">WhatsApp / Teléfono</label>
+        <input type="tel" name="phone" class="form-control" required>
+      </div>
+      <div class="col-md-9">
+        <label class="form-label">Mensaje / Peticiones</label>
+        <textarea name="message" rows="3" class="form-control"></textarea>
+      </div>
+
+      <div class="col-12">
+        <div class="form-check mb-3">
+          <label class="form-check-label" for="acepto">
+			Al enviar aceptas el contacto para realizar la reservación.
+          </label>
+        </div>
+        <button class="btn btn-primary btn-lg" type="submit">
+			<i class="bi bi-send me-4">Enviar solicitud</i></button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
 
 				<div class="contact-info-wrapper">
 					<div class="container">
@@ -933,7 +979,7 @@
 										<h3 class="title">Phone</h3>
 										<div class="content">
 											<p>
-												<span>For Reservations</span><br> Call <a href="tel:624-142-0418">624-142-0418</a>
+												<span>For Reservations</span><br> Call <a href="tel:624-129-0428">624-129-0428</a>
 											</p>
 										</div>
 										<!-- /.content -->
@@ -1071,7 +1117,7 @@
 			}
 		</style>
 				<a
-					href="https://wa.me/+526241290428?text=Hola%20me%20gustaria%20agendar%20una%20reservación"
+					href="https://wa.me/+526242474960?text=Hola%20me%20gustaria%20agendar%20una%20reservación"
 					target="_blank">
 					<img src="assets/img/whats.png" alt="WhatsApp" id="whatsapp" />
 				</a>

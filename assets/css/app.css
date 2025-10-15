@@ -6311,12 +6311,14 @@ a:hover { color: #EC6390; }
 .text-cobalto{ color: #0B4F8A !important; }
 .text-nopal  { color: #2E7D32 !important; }
 .border-maiz { border-color: #F2C75B !important; }
+.text-crema   { color: #FAF3E1 !important; }
+.bg-cobalto  { background: #0B4F8A !important; }
 
 
 
 /* ===== Titulares y subtítulos de sección ===== */
 .section-title { color:#0B4F8A; }                    /* azul cobalto */
-.section-subtitle { color:#EC6390; font-style:italic; } /* rosa mex script/italic */
+.section-subtitle { color:#EC6390; font-style:italic; font-size: 30px; } /* rosa mex script/italic */
 .section-divider{
   width:90px;height:4px;margin:12px auto 24px;
   background: #F2C75B; border-radius:3px;            /* maíz */
@@ -6397,4 +6399,342 @@ a:hover { color: #EC6390; }
 #experiencias .card-body .btn{
   margin-top: auto;        /* botón pegado abajo */
 }
+
+/* ============================
+   Paleta Frida – Variables
+   ============================ */
+:root{
+  --frida-cucurru:#F5F0E4;   /* fondo suave */
+  --frida-mariposa:#F4C3D2;  /* fondo secundario */
+  --frida-brezo:#EC6390;     /* primario (botones/acentos) */
+  --frida-maiz:#FEE080;      /* acento (dividers/hover) */
+  --frida-pispireta:#00B6B1; /* iconos/lines */
+  --frida-talavera:#204D89;  /* títulos/primario oscuro */
+
+  /* mapeos rápidos */
+  --bs-primary: var(--frida-brezo);
+  --bs-dark:    var(--frida-talavera);
+}
+
+/* ============================
+   Tipografía de títulos
+   (elegante: grande, tracking sutil)
+   ============================ */
+.section-title{
+  color: var(--frida-talavera);
+  letter-spacing:.4px;
+  font-weight:700;
+}
+.section-subtitle{
+  color: var(--frida-brezo);
+  font-style: italic;
+  letter-spacing:.3px;
+}
+.section-divider{
+  width:90px;height:4px;margin:12px auto 28px;
+  background: var(--frida-maiz); border-radius:2px;
+}
+
+/* Texto base más elegante y legible */
+body{ color:#6c6761; }   /* gris cálido */
+p{ line-height:1.9; }
+
+/* ============================
+   Botones
+   ============================ */
+.btn-primary,
+.btn-cta{
+  background: var(--frida-brezo);
+  border-color: var(--frida-brezo);
+  color:#fff;
+  box-shadow:0 8px 20px rgba(236,99,144,.18);
+}
+.btn-primary:hover,.btn-cta:hover{ filter:brightness(.95); }
+
+.btn-dark{
+  background: var(--frida-talavera);
+  border-color: var(--frida-talavera);
+}
+.btn-outline-nopal, .btn-outline-talavera{
+  color: var(--frida-talavera);
+  border-color: var(--frida-talavera);
+}
+.btn-outline-nopal:hover, .btn-outline-talavera:hover{
+  background: var(--frida-talavera); color:#fff;
+}
+
+/* ============================
+   Tabs (menú y experiencias)
+   ============================ */
+.menu-tabs .nav-link{
+  background: var(--frida-cucurru);
+  color:#6c6761; border:none; margin:0 .5rem .75rem;
+  padding:.9rem 2.2rem; border-radius:10px;
+  font-weight:600;
+}
+.menu-tabs .nav-link.active{
+  background:#2c2c2c; color:#fff; position:relative;
+}
+.menu-tabs .nav-link.active::after{
+  content:""; position:absolute; left:50%; transform:translateX(-50%);
+  bottom:-10px; width:0; height:0; border-left:8px solid transparent;
+  border-right:8px solid transparent; border-top:10px solid #2c2c2c;
+}
+
+/* Subtabs EN/ES */
+.menu-tabs-child .nav-link{ color: var(--frida-talavera); }
+.menu-tabs-child .nav-link.active{
+  color:#EC6390; border-radius:999px;
+}
+
+/* ============================
+   Chips/Badges
+   ============================ */
+.badge-chip{
+  display:inline-block; padding:.5rem 1rem; border-radius:1px;
+  background: #eef4f6; color: var(--frida-talavera); font-weight:700;
+}
+.badge-chip--rosa{ background: var(--frida-mariposa); color: var(--frida-brezo); }
+.badge-chip--nopal{ background:#E6FAF9; color: var(--frida-pispireta); }
+
+/* ============================
+   Secciones específicas
+   ============================ */
+
+/* ===========================
+   PALETA FRIDA KAHLO
+   =========================== */
+
+/* Fondo claro: ideal para secciones amplias */
+.bg-cucurrucucu {
+  background-color: #F5F0E4;
+  color: #204D89; /* Arte talavera: contraste elegante */
+}
+
+/* Fondo rosa suave */
+.bg-mariposas {
+  background-color: #F4C3D2;
+  color: #204D89; /* azul talavera contrasta bien */
+}
+
+/* Fondo rosa fuerte */
+.bg-brezo {
+  background-color: #EC6390;
+  color: #F5F0E4; /* texto claro */
+}
+
+/* Fondo amarillo maíz */
+.bg-maiz {
+  background-color: #FEE080;
+  color: #204D89; /* texto oscuro para contraste */
+}
+
+/* Fondo turquesa */
+.bg-pispireta {
+  background-color: #00B6B1;
+  color: #F5F0E4; /* texto claro */
+}
+
+/* Fondo azul talavera */
+.bg-talavera {
+  background-color: #204D89;
+  color: #F5F0E4; /* texto claro */
+}
+
+/* ===========================
+   COLORES DE TEXTO
+   =========================== */
+
+.text-cucurrucucu { color: #F5F0E4; }
+.text-mariposas   { color: #F4C3D2; }
+.text-brezo       { color: #EC6390; }
+.text-maiz        { color: #FEE080; }
+.text-pispireta   { color: #00B6B1; }
+.text-talavera    { color: #204D89; }
+.text-blanco      { color: #FFFFFF; }
+
+/*  contraste sobre fondos claros */
+.text-shadow {
+  text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+}
+
+
+/* Links y decoraciones */
+a{ color: var(--frida-talavera); }
+a:hover{ color: var(--frida-brezo); }
+
+/* Underline del menú: solo en hover/activo */
+.site-header .site-main-menu li > a{ position:relative; }
+.site-header .site-main-menu li > a:after{
+  content:""; position:absolute; left:0; right:0; bottom:-8px; height:2px;
+  background: var(--frida-maiz); transform:scaleX(0); opacity:0;
+  transition:transform .25s ease,opacity .25s ease;
+}
+.site-header .site-main-menu li > a:hover:after,
+.site-header .site-main-menu li > a.active:after{
+  transform:scaleX(1); opacity:1;
+}
+
+/* Cards Experiencias mismo alto (ya lo tenías, lo dejo con la paleta) */
+#experiencias .card{ display:flex; flex-direction:column; height:500px; width: 500px; }
+#experiencias .card-img-top{ height:100%; object-fit:contain; object-position:center; }
+#experiencias .card-body{ display:flex; flex-direction:column; flex:1 1 auto; }
+#experiencias .card-body .btn{ margin-top:auto; }
+#cantina a.btn{ font-size: 27px; }
+
+@media (max-width: 576px){
+   #experiencias .card{
+    display: flex; flex-direction: column; height: 200px; width: 325px;
+   }
+}
+
+/* Divider y líneas en color pispireta para detalles */
+.hr-pispireta{ border:0; height:2px; background: var(--frida-pispireta); opacity:.6; }
+
+/* CTA reservas */
+.section--turquesa{ background: var(--frida-cucurru) !important; }
+
+/* Formulario con paleta Frida */
+#contacto .form-control:focus,
+#contacto .form-select:focus{
+  border-color: var(--frida-brezo);
+  box-shadow: 0 0 0 .2rem rgba(236,99,144,.20);
+}
+#contacto .form-label{ font-weight:600; color: var(--frida-talavera); }
+#contacto .form-check-input:checked{ background-color: var(--frida-talavera); border-color: var(--frida-talavera); }
+
+/* Evita cualquier scroll horizontal en móvil */
+html, body { width: 100%; overflow-x: hidden; }
+
+/* ---- Tabs: quepa todo y no rompa ---- */
+@media (max-width: 576px) {
+  .menu-tabs { display: block; }
+  .menu-tabs a {
+    display: block;
+    flex: 0 0 100%;
+    padding: 16px;         /* antes 44px 0 */
+    margin: 0 0 12px 0;    /* elimina el margin-right grande */
+  }
+  .menu-tabs a:not(:last-child){ margin-right: 0; }
+}
+
+/* ---- Sección About: quita imágenes flotantes y reduce paddings en móvil ---- */
+@media (max-width: 768px) {
+  .about { padding: 48px 0 40px !important; }
+  .about-feature-image,
+  .about-three-thumb,
+  .about-feature-image .img-one,
+  .about-feature-image .img-two { display: none !important; }
+  .about .about-content { padding-right: 0 !important; }
+}
+
+/* ---- Títulos y subtítulos más contenidos en móvil ---- */
+@media (max-width: 576px) {
+  .section-title .title { font-size: 28px !important; line-height: 1.25; }
+  .section-title .sub-title { font-size: 22px !important; line-height: 1.25; }
+}
+
+/* ---- Banner: evita alturas que “aplasten” el contenido ---- */
+@media (max-width: 576px) {
+  .banner,
+  .banner .swiper-slide { height: 85vh; }
+  .banner .banner-content { transform: translateY(-40%) !important; padding: 0 16px; }
+  .banner .banner-content .banner-title { font-size: 36px !important; line-height: 1.1; }
+  .banner .banner-content .sub-title   { font-size: 22px !important; line-height: 1.2; }
+}
+
+/* ---- Cualquier imagen con offsets negativos no debe desbordar en móvil ---- */
+@media (max-width: 576px) {
+  [class*="img-"] { position: static !important; transform: none !important; right: auto !important; left: auto !important; }
+}
+
+/* ---- Botón flotante/whatsapp: que no cause overflow ---- */
+.whatsapp-button,
+.whatsapp-widget { right: 16px !important; bottom: 16px !important; }
+
+/* ===========================
+   FIX: Tabs de Menú / Experiencias
+   (alineación, responsive, alturas iguales)
+   =========================== */
+
+/* Contenedor de tabs: usa flex + gap (sin márgenes grandes) */
+.tabs-inner .nav.menu-tabs{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:16px;                 /* reemplaza margin entre items */
+  padding:0 12px;
+}
+
+/* Botones de tab: tamaño consistente y centrados */
+.tabs-inner .menu-tabs .nav-link{
+  background: var(--frida-cucurru, #F5F0E4);
+  color:#504A45;            /* gris cálido legible */
+  border:none;
+  border-radius:1px;
+  padding:14px 22px;
+  margin:0;                 /* gap controla el espacio */
+  min-width:180px;          /* evita pill muy angosto */
+  min-height:64px;          /* altura pareja */
+  display:flex; align-items:center; justify-content:center;
+  text-align:center; line-height:1.2; font-weight:600;
+  box-sizing:border-box;
+}
+
+/* Estado activo y triangulito */
+.tabs-inner .menu-tabs .nav-link.active{
+  background:#2c2c2c; color:#fff; position:relative;
+  box-shadow:0 6px 16px rgba(0,0,0,.12);
+}
+.tabs-inner .menu-tabs .nav-link.active::after{
+  content:""; position:absolute; left:50%; transform:translateX(-50%);
+  bottom:-10px; width:0; height:0;
+  border-left:8px solid transparent; border-right:8px solid transparent;
+  border-top:10px solid #2c2c2c;
+}
+
+/* Subtabs EN/ES (debajo de los tabs grandes) */
+.menu-tabs-child{
+  display:flex; flex-wrap:wrap; justify-content:center; gap:16px;
+}
+.menu-tabs-child .nav-link{
+  padding:8px 18px; border-radius:1px; margin:0;
+  color: var(--frida-talavera,#204D89);
+}
+.menu-tabs-child .nav-link.active{
+  color:#EC6390; 
+}
+
+/* Separación superior del contenido de tab */
+.tab-content.tab-content-top{ margin-top:18px; }
+
+/* ====== Responsive ====== */
+/* 1) Móvil: 1 por fila (full width) */
+@media (max-width: 575.98px){
+  .tabs-inner .menu-tabs .nav-link{ flex:1 1 100%; min-width:0; }
+}
+
+/* 2) Tablet: 2 columnas */
+@media (min-width:576px) and (max-width: 991.98px){
+  .tabs-inner .menu-tabs .nav-link{ flex:1 1 calc(50% - 16px); }
+}
+
+/* 3) Desktop: fila (auto) */
+@media (min-width: 992px){
+  .tabs-inner .menu-tabs .nav-link{ flex:0 0 auto; }
+}
+
+/* Previene overflow horizontal por pseudoelemento/espacios */
+.tabs-inner{ overflow:visible; }
+
+/* Extra: cuando el texto ocupa 2 líneas (Cheese & Wine, Night Life),
+   forzamos la misma altura y centrado vertical */
+.tabs-inner .menu-tabs .nav-link span{
+  display:inline-block;
+}
+
+/* ===========================
+   FIX complementario: evita scroll lateral accidental
+   =========================== */
+html, body{ overflow-x:hidden; }
 
