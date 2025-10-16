@@ -6738,3 +6738,168 @@ html, body { width: 100%; overflow-x: hidden; }
    =========================== */
 html, body{ overflow-x:hidden; }
 
+/* ========== Boutique: grid sobrio y consistente ========== */
+.bq-grid{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap:24px;
+  align-items:start;
+}
+
+.bq-card{ text-decoration:none; color:inherit; }
+.bq-card figure{
+  margin:0; background:#fff; border-radius:16px; overflow:hidden;
+  border:1px solid rgba(0,0,0,.05);
+  box-shadow: 0 10px 24px rgba(0,0,0,.06);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.bq-card:hover figure{
+  transform: translateY(-2px);
+  box-shadow: 0 16px 36px rgba(0,0,0,.10);
+}
+
+.bq-img{
+  width:100%; aspect-ratio: 4/3; object-fit:cover; display:block;
+}
+
+.bq-caption{
+  text-align:center;
+  padding:12px 14px;
+  font-weight:700;
+  color: var(--frida-talavera, #204D89);
+  letter-spacing:.2px;
+}
+
+/* Responsive elegante: 2 col en tablet, 1 en móvil */
+@media (max-width: 991.98px){
+  .bq-grid{ grid-template-columns: repeat(2, minmax(0,1fr)); gap:18px; }
+}
+@media (max-width: 575.98px){
+  .bq-grid{ grid-template-columns: 1fr; gap:14px; }
+}
+
+/* ===== Boutique: strip elegante ===== */
+#boutique .bq-strip{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  align-items: stretch;
+}
+
+#boutique .bq-card{ display:block; text-decoration:none; color:inherit; }
+#boutique .bq-card--tall .bq-framed{ aspect-ratio: 4/5; } /* centro más alto */
+#boutique .bq-framed{
+  position:relative; margin:0; overflow:hidden; border-radius:16px;
+  background:#fff;
+  /* marco fino tipo museo */
+  box-shadow:
+    0 0 0 1px rgba(0,0,0,.06) inset,
+    0 10px 24px rgba(0,0,0,.08);
+  aspect-ratio: 4/3;                    /* proporción elegante por defecto */
+}
+#boutique .bq-framed img{
+  width:100%; height:100%; object-fit:cover; display:block;
+  transform: scale(1.02);
+  transition: transform 800ms ease;
+}
+#boutique .bq-card:hover .bq-framed img{ transform: scale(1.06); }
+
+/* Etiqueta discreta arriba a la izquierda */
+#boutique .bq-tag{
+  position:absolute; top:14px; left:14px;
+  padding:.35rem .6rem; border-radius:999px;
+  background: rgba(255,255,255,.85);
+  backdrop-filter: blur(4px);
+  border:1px solid rgba(0,0,0,.06);
+  color: var(--frida-talavera, #204D89);
+  font-weight:700; font-size:.9rem; letter-spacing:.2px;
+}
+
+/* Micro-entrada elegante (solo CSS) */
+@keyframes bqFadeUp{ from{opacity:0; transform:translateY(10px);} to{opacity:1; transform:none;} }
+#boutique .bq-card{ opacity:0; animation:bqFadeUp .6s ease forwards; }
+#boutique .bq-card:nth-child(1){ animation-delay:.05s; }
+#boutique .bq-card:nth-child(2){ animation-delay:.12s; }
+#boutique .bq-card:nth-child(3){ animation-delay:.18s; }
+
+/* Responsive */
+@media (max-width: 991.98px){
+  #boutique .bq-strip{ grid-template-columns: repeat(2, 1fr); }
+  #boutique .bq-card--tall .bq-framed{ aspect-ratio: 4/3; } /* iguala alturas en tablet */
+}
+@media (max-width: 575.98px){
+  #boutique .bq-strip{ grid-template-columns: 1fr; gap:16px; }
+}
+
+/* ===== Botón "Ver más" elegante ===== */
+.bq-more {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.btn-boutique {
+  display: inline-block;
+  background-color: #FEE080; /* Amarillo maíz */
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 0.7rem 2.2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn-boutique:hover {
+  background-color: #f5cf58; /* tono más oscuro */
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-boutique:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== Overlay elegante sobre las imágenes ===== */
+.bq-framed {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.bq-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  border-radius: inherit;
+}
+
+.bq-framed:hover .bq-overlay {
+  opacity: 1;
+}
+
+/* ===== Botón sobre cada imagen ===== */
+.btn-boutique-overlay {
+  background-color: #FEE080; /* Amarillo maíz */
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 0.6rem 1.8rem;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-boutique-overlay:hover {
+  background-color: #f5cf58;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

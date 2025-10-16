@@ -121,7 +121,6 @@
 
 							<ul class="site-main-menu">
 								<li><a href="#main_content">Home</a></li>
-
 								<li><a href="#nosotros">History</a></li>
 								<li><a href="#menu">Restaurant</a></li>
 								<li><a href="#cantina">Cantina 29</a></li>
@@ -551,6 +550,47 @@
           <span class="badge-chip badge-chip--nopal">info@choyarose.com</span>
           <span class="badge-chip badge-chip--rosa">WhatsApp: +52 624 129 0428</span>
         </p>
+		<!-- Boutique – strip elegante de 3 imágenes -->
+<div class="bq-strip mt-4">
+  <a href="choyarose.html" class="bq-card" aria-label="Choya Rose – Home Accessories">
+    <figure class="bq-framed">
+      <img src="media/about/8.jpg" alt="Choya Rose – Home Accessories" loading="lazy">
+      <!-- Botón Ver más dentro de la imagen -->
+      <div class="bq-overlay">
+        <span class="btn-boutique-overlay">Ver más</span>
+      </div>
+      <!-- <figcaption class="bq-tag">Home Accessories</figcaption> -->
+    </figure>
+  </a>
+
+  <a href="choyarose.html" class="bq-card bq-card--tall" aria-label="Choya Rose – Custom Furniture">
+    <figure class="bq-framed">
+      <img src="media/about/6.jpg" alt="Choya Rose – Custom Furniture" loading="lazy">
+      <div class="bq-overlay">
+        <span class="btn-boutique-overlay">Ver más</span>
+      </div>
+      <!-- <figcaption class="bq-tag">Custom Furniture</figcaption> -->
+    </figure>
+  </a>
+
+  <a href="choyarose.html" class="bq-card" aria-label="Choya Rose – Design & Procurement">
+    <figure class="bq-framed">
+      <img src="media/about/7.jpg" alt="Choya Rose – Design & Procurement" loading="lazy">
+      <div class="bq-overlay">
+        <span class="btn-boutique-overlay">Ver más</span>
+      </div>
+      <!-- <figcaption class="bq-tag">Design & Procurement</figcaption> -->
+    </figure>
+  </a>
+</div>
+
+<!-- Botón Ver más 
+<div class="bq-more mt-4">
+  <a href="choyarose.html" class="btn-boutique">Ver más</a>
+</div> -->
+
+
+
       </div>
     </div>
   </div>

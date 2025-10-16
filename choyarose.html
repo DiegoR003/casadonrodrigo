@@ -158,11 +158,19 @@
               </div>
 
               <ul class="site-main-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#nosotros">About</a></li>
-                <li><a href="index.html#menu">Menu</a></li>
-                <li><a href="choyarose.html">Boutique</a></li>
-                <li><a href="index.html#galeria">Gallery</a></li>
+                <li><a href="index.php#main_content">Home</a></li>
+                <li><a href="index.php#nosotros">History</a></li>
+                <li><a href="index.php#menu">Restaurant</a></li>
+                <li><a href="index.php#cantina">Cantina 29</a></li>
+                <li><a href="index.php#boutique">Boutique</a></li>
+                 <li><a href="index.php#experiencias">Experiencias</a></li>
+                
+                <!--  <li><a href="#main_content">Home</a></li>
+								<li><a href="#nosotros">History</a></li>
+								<li><a href="#menu">Restaurant</a></li>
+								<li><a href="#cantina">Cantina 29</a></li>
+								<li><a href="#boutique">Boutique</a></li>
+								<li><a href="#experiencias">Experiencias</a></li> -->
               </ul>
 
               <div class="right-menu">
@@ -170,7 +178,7 @@
                   target="_blank"
                   href="https://www.opentable.com.mx/restref/client/?restref=1034446&lang=en-US&corrid=df0c702e-6a9b-47b0-944e-a36f9e87cf1a"
                   class="nav-btn gp-btn"
-                  >Reservations</a
+                  >Reserva</a
                 >
               </div>
               <!-- /.right-menu -->
@@ -207,7 +215,7 @@
               <div class="container">
                 <div class="banner-content text-center">
                   <h3 class="sub-title" data-animate="fadeInDown" style="color: #fff;">
-                    Welcome to
+                    
                   </h3>
                   <h2
                     class="banner-title"
@@ -239,10 +247,10 @@
 
                   <a
                     href="#nosotros"
-                    class="gp-btn btn-light"
+                    class="buttom-turquesa gp-btn "
                     data-animate="fadeInUp"
                     data-delay="0.9s"
-                    >Explore</a
+                    >Reservar</a
                   >
                 </div>
                 <!-- /.banner-content -->
@@ -354,15 +362,15 @@
             <div class="content-left">
               <h2>MAKE A RESERVATION <br /></h2>
 
-              <h3 style="color: #fff;">At Casa Don Rodrigo.</h3>
+              <h4 >At Casa Don Rodrigo.</h4>
             </div>
             <!-- /.content-left -->
 
             <div class="action-btn-inner">
               <a
                 target="_blank"
-                href="https://www.opentable.com.mx/restref/client/?restref=1034446&lang=en-US&corrid=df0c702e-6a9b-47b0-944e-a36f9e87cf1a"
-                class="gp-btn btn-light"
+                href="#contacto"
+                class="nav-btn gp-btn"
                 >Book a table</a
               >
             </div>
@@ -484,6 +492,49 @@
         <!-- /.container -->
       </section>
 
+      <!--=========================-->
+				<!--=        Contacto         =-->
+				<!--=========================-->
+
+				 <section id="contacto" class="py-5 section--crema">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-title" style="font-size: 45px; ">Reserva con nosotros</h2>
+      <div class="section-subtitle">Book a Table directly with us</div>
+      <div class="section-divider"></div>
+    </div>
+
+    <form action="contact.php" method="POST" class="row g-3 mt-2" id="reservaForm" novalidate>
+      <div class="col-md-6">
+        <label class="form-label">Nombre completo</label>
+        <input type="text" name="name" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Email</label>
+        <input type="email" name="email" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">WhatsApp / Teléfono</label>
+        <input type="tel" name="phone" class="form-control" required>
+      </div>
+      <div class="col-md-9">
+        <label class="form-label">Mensaje / Peticiones</label>
+        <textarea name="message" rows="3" class="form-control"></textarea>
+      </div>
+
+      <div class="col-12">
+        <div class="form-check mb-3">
+          <label class="form-check-label" for="acepto">
+			Al enviar aceptas el contacto para realizar la reservación.
+          </label>
+        </div>
+        <button class="btn btn-primary btn-lg" type="submit">
+			<i class="bi bi-send me-4">Enviar solicitud</i></button>
+      </div>
+    </form>
+  </div>
+</section>
+
       <div class="contact-info-wrapper">
         <div class="container">
           <div class="contact-infos">
@@ -571,6 +622,8 @@
         </div>
         <!-- /.container -->
       </div>
+
+      
 
       <!--=========================-->
       <!--=        Footer         =-->
